@@ -6,6 +6,11 @@ export default function Home() {
     <main className="">
         <WelcomeSection />
         <Featured />
+        <Featured />
+
+        <Featured />
+        <Featured />
+
     </main>
   );
 }
