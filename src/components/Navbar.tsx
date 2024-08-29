@@ -4,7 +4,6 @@ import React, {useState} from 'react';
 import Hamburger  from 'hamburger-react';
 import Link from "next/link";
 import CartIcon from "@/components/CartIcon";
-import Image from "next/image";
 
 const Navbar = () => {
 
@@ -41,9 +40,9 @@ const Navbar = () => {
                 <div className="md:hidden flex justify-between w-full shadow py-2 px-2">
                     <div className="flex justify-between items-center w-full">
                         <div className="z-50">
-                            <h1 className="text-2xl font-bold">Logo</h1>
+                            <h1 className="text-2xl text-gray-100 font-bold">Logo</h1>
                         </div>
-                            <div className="z-20">
+                            <div className="z-20 text-gray-100">
                                 <Hamburger size={26} toggled={isOpened} toggle={setIsOpened}/>
                             </div>
                         </div>

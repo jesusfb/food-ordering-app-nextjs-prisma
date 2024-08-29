@@ -1,11 +1,10 @@
 import React from 'react';
 import Image from "next/image";
-import Link from "next/link";
-const WelcomePart = () => {
+const WelcomeSection = () => {
     return (
-        <div className="absolute z-0">
-            <Image src="/pancakes.jpg" width={1920} height={1080} alt="hero" className="fixed top-0 h-[500px] md:h-[700px] z-0 w-full object-cover"/>
-            <div className="bg-black bg-opacity-60 h-[500px] md:h-[700px] w-full fixed top-0 z-10"></div>
+        <div className="relative z-0 h-[500px] md:h-[700px] w-full">
+            <Image src="/pancakes.jpg" width={1920} height={1080} alt="hero" className="absolute top-0 h-[500px] md:h-[700px] z-0 w-full object-cover"/>
+            <div className="absolute top-0 bg-black bg-opacity-60 h-[500px] md:h-[700px] w-full z-10"></div>
             <div className="flex flex-col items-center justify-center h-[500px] md:h-[700px] w-full fixed top-0 z-20">
                 <h1 className="text-white text-4xl md:text-6xl font-bold">Welcome to our store</h1>
                 <p className="text-white text-lg md:text-3xl">Get the best pancakes in town</p>
@@ -15,4 +14,4 @@ const WelcomePart = () => {
 );
 };
 
-export default WelcomePart;
+export default WelcomeSection;

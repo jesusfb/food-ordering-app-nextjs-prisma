@@ -1,9 +1,11 @@
-import WelcomePart from "@/components/WelcomePart";
+import WelcomeSection from "@/components/WelcomeSection";
+import Featured from "@/components/Featured";
 
 export default function Home() {
   return (
-    <main>
-        <WelcomePart />
+    <main className="">
+        <WelcomeSection />
+        <Featured />
     </main>
   );
 }
