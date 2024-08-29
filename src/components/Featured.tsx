@@ -13,7 +13,7 @@ const Featured = () => {
     ];
 
      return (
-            <div className="w-screen md:w-[80%] mx-auto overflow-x-scroll py-10">
+            <div className="w-screen md:w-[80%] mx-auto overflow-x-scroll py-10 scroll">
                 <div className="w-max flex space-x-4">
                 {products.map((product, index) => (
                     <div className="w-screen md:w-[40vw] xl:w-[20vw] flex flex-col items-center justify-around px-2 py-4 bg-gray-100 hover:bg-gray-200 transition-all duration-300" key={index}>
