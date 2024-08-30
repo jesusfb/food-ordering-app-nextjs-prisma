@@ -1,9 +1,12 @@
 import React from 'react';
+import Carts from "@/components/Carts";
+import Checkout from "@/components/Checkout";
 
 const  CartPage = () => {
     return (
-        <div>
-            CartPage
+        <div className="w-full md:w-[80%] gap-4 mx-auto flex flex-col lg:flex-row items-center justify-center h-screen">
+            <Carts />
+            <Checkout />
         </div>
     );
 };
