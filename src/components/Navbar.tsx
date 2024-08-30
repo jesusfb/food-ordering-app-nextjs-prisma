@@ -40,9 +40,9 @@ const Navbar = () => {
                 <div className="md:hidden flex justify-between w-full shadow py-2 px-2">
                     <div className="flex justify-between items-center w-full">
                         <div className="z-50">
-                            <h1 className="text-2xl text-gray-100 font-bold">Logo</h1>
+                            <h1 className="text-2xl text-black font-bold">Logo</h1>
                         </div>
-                            <div className="z-20 text-gray-100">
+                            <div className="z-20 text-black">
                                 <Hamburger size={26} toggled={isOpened} toggle={setIsOpened}/>
                             </div>
                         </div>
