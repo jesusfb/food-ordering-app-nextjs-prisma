@@ -86,7 +86,7 @@ const ProductDetails = () => {
             </div>
             <hr className="pt-2"/>
             <p className="text-xl font-semibold pb-2 w-full">Total price: ${totalPrice.toFixed(2)}</p>
-            <div className="w-full">
+            <div className="w-full pb-4 md:pb-0">
                 <button className="w-full bg-gray-800 text-gray-100 text-xl font-bold px-4 py-2 uppercase hover:bg-gray-700 duration-300">Add to Cart</button>
             </div>
         </div>
